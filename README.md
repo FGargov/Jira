@@ -1,3 +1,3 @@
 **JIRA**
 
-Testing project for jira.com web page uses Selenium WebDriver and the provided automation test framework.
+Testing project of the JIRA web application with Selenium WebDriver and the provided automation test framework.
