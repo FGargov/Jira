@@ -83,11 +83,7 @@ public class UserActions {
 
     //############# WAITS #########
     public void waitForElementPresent(String locator, Object... arguments) {
-        // TODO: Implement the method
-        // 1. Initialize Wait utility with default timeout from properties
         int defaultTimeout = Integer.parseInt(getConfigPropertyByKey("config.defaultTimeoutSeconds"));
-        // 2. Use the method that checks for Element present
-        // 3. Fail the test with meaningful error message in case the element is not present
         waitForElementPresenceUntilTimeout(locator, defaultTimeout, arguments);
     }
 
