@@ -1,6 +1,6 @@
 package test.cases.jira;
 
-import com.telerikacademy.seleniumframework.UserActions;
+import com.telerikacademy.testframework.UserActions;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import pages.jira.LoginPage;
